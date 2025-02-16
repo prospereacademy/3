@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Sucesso Financeiro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        header {
+            background-color: red;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: black;
+            border-radius: 10px;
+            box-shadow: 0 0 10px green;
+        }
+        
+        .highlight {
+            color: green;
+            font-weight: bold;
+        }
+        
+        .btn {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 20px;
+            display: inline-block;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: darkred;
+        }
+        
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: red;
+        }
+        
+        .content-section {
+            display: none;
+            text-align: left;
+            margin-top: 20px;
+        }
+        
+        .content-section.active {
+            display: block;
+        }
+        
+        .content-section ul {
+            list-style-type: square;
+            margin-left: 30px;
+        }
+        
+        .intro-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        .intro-text p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Curso de Sucesso Financeiro 🚀</header>
+    <div class="container">
+        <div class="intro-text">
+            <h2>Transforme Sua Vida Financeira Agora!</h2>
+            <p>Você está prestes a dar o primeiro passo rumo à liberdade financeira! O <strong>Curso de Sucesso Financeiro</strong> foi desenvolvido para ajudar você a dominar o básico das finanças e construir um caminho sólido para o crescimento de sua
+                renda. Se você está buscando alcançar resultados reais, este curso é para você!</p>
+            <p><strong>Imagine poder viver daquilo que você ama, ter liberdade para investir e multiplicar seus ganhos, tudo enquanto cria fontes de renda duradouras e trabalha para atingir seus objetivos financeiros.</strong></p>
+            <p>Agora é o seu momento. Não deixe essa oportunidade passar! Vamos mostrar tudo o que você precisa saber para começar e maximizar seus ganhos. Prepare-se para aprender, investir e crescer!</p>
+        </div>
+
+        <button class="btn" onclick="showContent(1)">Primeiros Passos</button>
+        <button class="btn" onclick="showContent(2)">O Que NÃO Fazer</button>
+
+        <!-- Primeiros Passos -->
+        <div id="content1" class="content-section">
+            <h2 class="highlight">💰 1. Primeiros Passos Para Começar a Ganhar Dinheiro</h2>
+            <p>Antes de tudo, siga essas três etapas para aumentar suas chances de sucesso:</p>
+            <ul>
+                <li>✅ Escolha algo que tenha demanda – Pessoas pagam por soluções para seus problemas.</li>
+                <li>✅ Use os recursos que já tem – Tempo, conhecimento, celular, internet, redes sociais.</li>
+                <li>✅ Reinvista os primeiros ganhos – Para crescer, use o dinheiro inicial para melhorar.</li>
+            </ul>
+
+            <h2 class="highlight">🔥 2. Maneiras Simples e Rápidas Para Gerar Renda</h2>
+            <p>📲 Aproveite a Internet para Trabalhar</p>
+            <ul>
+                <li>1️⃣ Venda produtos como afiliado</li>
+                <li>2️⃣ Crie conteúdo no TikTok, YouTube ou Instagram</li>
+                <li>3️⃣ Ofereça serviços online</li>
+                <li>4️⃣ Venda no Mercado Livre ou Shopee</li>
+                <li>5️⃣ Revenda roupas, perfumes e acessórios</li>
+            </ul>
+
+            <h2 class="highlight">📈 3. Criando Fontes de Renda Duradouras</h2>
+            <ul>
+                <li>🔹 Criação de e-books e cursos</li>
+                <li>🔹 Dropshipping</li>
+                <li>🔹 Gestão de redes sociais</li>
+                <li>🔹 Freelancer em plataformas</li>
+            </ul>
+
+            <h2 class="highlight">💸 Investimentos para Aumentar o Patrimônio</h2>
+            <ul>
+                <li>🔹 Tesouro Direto</li>
+                <li>🔹 Ações e Fundos Imobiliários</li>
+                <li>🔹 Criptomoedas</li>
+            </ul>
+
+            <h2 class="highlight">🚀 4. Estratégias Para Maximizar Seus Ganhos</h2>
+            <ul>
+                <li>🔸 Aprenda a vender</li>
+                <li>🔸 Reinvista no seu negócio</li>
+                <li>🔸 Construa uma audiência</li>
+                <li>🔸 Foque em fontes de renda passiva</li>
+            </ul>
+        </div>
+
+        <!-- O Que NÃO Fazer -->
+        <div id="content2" class="content-section">
+            <h2 class="highlight">💰 1. O Que NÃO Fazer Com Seus Primeiros Ganhos</h2>
+            <p>Antes de tudo, evite esses erros:</p>
+            <ul>
+                <li>❌ Gastar tudo com besteiras – Evite compras por impulso, como roupas caras ou itens que perdem valor rápido.</li>
+                <li>❌ Não separar uma parte para reinvestir – Se você não coloca dinheiro de volta no seu negócio, ele não cresce.</li>
+                <li>❌ Depender apenas de uma fonte de renda – O ideal é sempre buscar formas de ganhar dinheiro em diferentes áreas.</li>
+            </ul>
+
+            <h2 class="highlight">📊 2. Como Usar Seu Primeiro Dinheiro Inteligentemente</h2>
+            <p>Divida Seu Dinheiro Em 4 Partes:</p>
+            <ul>
+                <li>1️⃣ 50% - Reinvestimento no seu negócio</li>
+                <ul>
+                    <li>Melhorar produtos ou serviços.</li>
+                    <li>Comprar mais estoque, se necessário.</li>
+                    <li>Investir em anúncios para alcançar mais clientes.</li>
+                    <li>Aprimorar seu marketing e branding.</li>
+                </ul>
+                <li>2️⃣ 30% - Reserva financeira</li>
+                <ul>
+                    <li>Tenha um fundo de emergência para momentos difíceis.</li>
+                    <li>Isso evita que precise parar seu negócio caso algo inesperado aconteça.</li>
+                </ul>
+                <li>3️⃣ 15% - Investimentos</li>
+                <ul>
+                    <li>Coloque seu dinheiro para trabalhar por você.</li>
+                    <li>Pode ser renda fixa (Tesouro Direto, CDBs) ou variável (ações, FIIs, criptomoedas).</li>
+                </ul>
+                <li>4️⃣ 5% - Uso pessoal (recompensa controlada)</li>
+                <ul>
+                    <li>Você pode se dar um pequeno presente como motivação.</li>
+                    <li>Mas sem exagerar e comprometer seu crescimento!</li>
+                </ul>
+            </ul>
+
+            <h2 class="highlight">📈 3. Como Fazer Seu Dinheiro Crescer Mais Ainda</h2>
+            <ul>
+                <li>🔹 Reinvista sempre – Quanto mais você coloca de volta no seu negócio, maior ele fica.</li>
+                <li>🔹 Crie novas fontes de renda – Não dependa só de uma forma de ganhar dinheiro.</li>
+                <li>🔹 Escale seu negócio – Use estratégias para aumentar clientes e lucros.</li>
+                <li>🔹 Aprenda sobre investimentos – Ganhar dinheiro é ótimo, mas fazê-lo trabalhar para você é ainda melhor.</li>
+            </ul>
+
+            <h2 class="highlight">🚀 4. Exemplo Prático de Crescimento</h2>
+            <ul>
+                <li>➡️ Se começou vendendo doces e ganhou R$ 300, pode:</li>
+                <ul>
+                    <li>✔️ Comprar mais ingredientes e vender mais.</li>
+                    <li>✔️ Investir em marketing digital para vender online.</li>
+                    <li>✔️ Criar um canal no TikTok e monetizar.</li>
+                    <li>✔️ Comprar um curso sobre empreendedorismo para melhorar sua estratégia.</li>
+                </ul>
+            </ul>
+            <p>Com isso, seu dinheiro cresce sozinho e, em poucos meses, você pode estar ganhando 10x mais!</p>
+
+            <p>A chave é disciplina e estratégia. Se seguir essas dicas, seus primeiros ganhos serão apenas o começo do seu sucesso. 🚀💰</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>📩 E-mail: <a href="mailto:prospereacademy1@gmail.com" style="color: white;">prospereacademy1@gmail.com</a></p>
+        <p>📸 Instagram: <a href="https://www.instagram.com/prospereacademy_/" target="_blank" style="color: white;">@prospereacademy_</a></p>
+        <h3 class="highlight">📢 Envie seu comprovante no Instagram para receber acesso ao curso!</h3>
+    </footer>
+
+    <script>
+        function showContent(contentNumber) {
+            const content1 = document.getElementById('content1');
+            const content2 = document.getElementById('content2');
+            if (contentNumber === 1) {
+                content1.classList.add('active');
+                content2.classList.remove('active');
+            } else {
+                content2.classList.add('active');
+                content1.classList.remove('active');
+            }
+        }
+    </script>
+</body>
+
+</html>
